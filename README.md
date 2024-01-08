@@ -57,3 +57,5 @@ Note:
 ```python
 Base_Translation(input, precision=10, d_type = 'decimal').to_base(base)
 ```
+
+For addition of bits, convert them to `int(decimal)` add them, then convert them to desired output.
